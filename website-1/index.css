@@ -4,12 +4,16 @@
 .container{
   background-color: hotpink;
   height: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .box-first{
   background-color: red;
   color:white;
   height: 50vh;
-  width: 49vw;
+  width: 30vw;
   box-sizing: content-box;
   float: left;
   border: 4px solid black;
@@ -21,8 +25,26 @@
   float: right;
   background-color: blue;
   height: 50vh;
-  width: 49vw;
+  width: 30vw;
   border: 4px solid black;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.align-image-center{
+  align-self: center;
+  height: 20px;
+  padding: 10px;
+}
+.bg{
+  background-color: hotpink;
+  height: 50vh;
+}
+.img-container{
+  display: flex;
 }
 p{
   color: black;
