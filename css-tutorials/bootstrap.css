@@ -1,0 +1,136 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgba(25, 25, 112, 0.89);
+  height: 50px;
+  width: auto;
+}
+.content {
+  height: 90vh;
+  background-color: rgb(196, 196, 238);
+  border: 3px solid black;
+  padding: 42px;
+  box-sizing: content-box;
+  text-align: justify;
+  text-decoration: green solid underline; --> should avoid using bcuz it won't give good user experience */
+  /* text-transform: capitalize;
+  line-height: 50px; */
+  /*below is th eweb safe fonts*/
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /*if first one is not found, then it will look for the next one; so here we are giving multiple option of language to the computer */
+
+  /* using Google Fonts
+  font-family: "The Nautigal", cursive; */
+  /* font-weight: 700;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+a {
+  color: white;
+  padding: 0 3px;
+}
+li a::after {
+  content: ">";
+  color: whitesmoke;
+}
+footer {
+  background-color: midnightblue;
+  margin-bottom: 0;
+  background-position: fixed;
+  color: whitesmoke;
+  display: flex;
+  justify-content: end;
+} */
+/* .accordion-item{
+    background-color: pink;
+}
+.accordion-button:not(.collapsed){
+    color: red;
+    background-color: rgb(165, 165, 235);
+}
+.accordion-button {
+    color: red;
+} */
+/* body {
+  /* m0+p0 */
+/* bottom: 0;
+  color: 0;}
+nav{
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 100px;
+}
+.main{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}  */
+/* .main{
+    background-color: rgba(235, 193, 200, 0.849);
+    color: black;
+    background-image: url('https://images.unsplash.com/photo-1598815000898-7d8cd4dc90f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWN0cmVzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    border: 6px groove red;
+    border-radius: 10px;/*used to make good designs*/
+/* background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 4px 2px 3px 5px;/* top right bottom left */
+/* padding: 3px;
+    height: 800px;
+    width: auto;
+    box-sizing: content-box;
+}
+/* *{
+    margin: 4px;
+    padding: 3px; 
+} */
+/* .box1{
+    margin: 5px;
+    background-color:royalblue ;
+}
+.box2{
+    margin: 10px;
+    background-color: greenyellow;
+}   */ 
+nav{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px 4px;
+}
+a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-decoration: none;
+}
+a::after{
+    content: '>';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background-color: red;
+    display: inline-block;
+    height: 94vh;
+    width: 50%;
+    box-sizing: content-box;
+}
+.green{
+    background-color: green;
+    display: inline-block;
+    height: 94vh;
+    width:50%;
+    box-sizing: content-box;
+}
+

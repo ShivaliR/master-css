@@ -1,0 +1,39 @@
+Classes in bootstrap:
+
+mt-3
+text-center
+active
+mx-2 my-3
+success,warning, primary,secondary,danger
+
+
+
+Tags in html:
+<em></em> --> emphasize tag
+<br> --> line break tag; this is a self closing tag.
+<hr> --> horizontal rule, creates a horizontal ruler, this is also a self closing tag
+you should use em tag instead of italic tag; and strong tag instead of bold tag.div*3 will give you 3 tags.
+source.unsplash.com
+alt attribute is imp because it will show text when image doesn't get loaded or encounters error.
+
+To bring search traffic in websites in SEO.
+minify
+
+Alt+Z
+Ctrl+D
+Shift+Alt+F
+Alt +click for multiple cursors.
+
+block level buttons.
+active, disabled, 
+dismissable alerts
+carousel - slider
+Emmet abbreviation
+
+by default, there are 12 columns in a row.
+col-3 means you are using 3 columns out of them, and rest will be empty.
+
+toggle
+!important forces the browser to overwrite the default style applied by Bootstrap */
+
+

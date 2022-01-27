@@ -1,0 +1,1 @@
+justify-content has only effect it container is flex or grid.

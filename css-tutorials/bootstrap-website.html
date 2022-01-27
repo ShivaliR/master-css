@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <title>Practics CSS</title>
+  <style>
+    header {
+  background-color: rgba(25, 25, 112, 0.89);
+  height: 50px;
+  width: auto;
+  position: sticky;
+  top:0;
+}
+    nav{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px 4px;
+}
+a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-decoration: none;
+}
+a::after{
+    content: '>';
+}
+    .red{
+      background-color: red;
+      display: inline-block;
+      width: 50vw;
+      height: 95vh;
+      margin: 10px;
+      padding: 10px;
+      border: 4px dashed black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .green{
+      background-color: green;
+      position: absolute;
+      /* position: relative;
+      width: 5vw;
+      bottom: 75px;
+      left: 741px; */
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 5vw;
+      height: 75px; /*This CSS is used in Chat with us type of modules*/
+    }
+    .aqua{
+      background-color: aqua;
+      border: 4px solid black;
+      position: relative;
+      height: 20px;
+      width: 170px;
+      bottom: 78px;
+      left: 710px;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- <div class="red">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio
+      aliquam tempora harum magni ut repellat reprehenderit deserunt quasi!
+      Dolores provident aliquam ipsa quisquam harum voluptatibus corporis esse
+      labore! Maiores dicta reprehenderit commodi placeat!
+      <div class="aqua">
+        Hi, this is aqua box!
+      </div>
+      <div class="green">Hi, this is green box!</div>
+    </div> -->
+    <div class="myContainer">
+        <h1>Hi, this is main green class</h1>
+ <h1>Hi, this is main red class</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum doloribus praesentium libero vel eveniet officia numquam consequatur aliquam ipsam eligendi aspernatur aperiam dicta magnam voluptatum, suscipit reprehenderit quibusdam, maiores veritatis? Iste quod doloremque reiciendis, fugit reprehenderit aliquid, soluta, voluptatibus vero explicabo expedita perferendis vitae voluptate?</p>
+     </div>
+    
+  </body>
+</html>

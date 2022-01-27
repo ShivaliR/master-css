@@ -1,0 +1,52 @@
+*{
+  margin: 0;padding: 0;
+}
+.container{
+  background-color: hotpink;
+  height: fit-content;
+}
+.box-first{
+  background-color: red;
+  color:white;
+  height: 50vh;
+  width: 49vw;
+  box-sizing: content-box;
+  float: left;
+  border: 4px solid black;
+}
+.text{
+  color: white;
+}
+.box-second{
+  float: right;
+  background-color: blue;
+  height: 50vh;
+  width: 49vw;
+  border: 4px solid black;
+}
+p{
+  color: black;
+}
+ul{
+  padding: 12px 4px;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 4px;
+}
+header{
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 40px;
+  position: sticky;
+  top: 0;
+}
+footer{
+  bottom: 0;
+  position: fixed;
+  background-color: grey;
+  display: block;
+  width: 100vw;
+}
