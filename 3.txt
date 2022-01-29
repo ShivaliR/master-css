@@ -1,1 +1,3 @@
 justify-content has only effect it container is flex or grid.
+
+Flexbox and CSS Grids are very important when it comes to making of websites.

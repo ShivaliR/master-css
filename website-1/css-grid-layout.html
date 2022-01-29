@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website using CSS-Grid Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: grid;
+            background-color: black;
+            grid-template-columns: 400px auto;
+            color: white;
+            padding: 15px;
+        }
+        .menu{
+            text-align: center;
+        }
+        .container{
+            background-color: yellow;
+            display: grid;
+            grid-template-columns: auto auto;
+            text-align: center;
+        }
+        .main{
+            background-color: whitesmoke;
+            height: 80vh;
+            border: 3px solid black;
+            align-items: center;
+        }
+        .aside{
+            background-color:  whitesmoke;
+            height: 80vh;
+            border: 3px dashed black;
+        }
+        .sponsors{
+            background-color: rgb(231, 223, 223);
+            height: 40vh;
+            border: 3px double black;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            justify-content: center;
+            padding: 5px 5px;
+            align-items: center;
+        }
+        .item-sponsor-1,.item-sponsor-2,.item-sponsor-3,.item-sponsor-4,.item-sponsor-5, img{
+            width: 50px;
+            margin: 35px 10px;
+            border-radius: 50%;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            height: 10vh;
+        }
+        em{
+            color: rgba(255, 255, 255, 0.685);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <div class="menu">Menu</div>
+    </header>
+    <div class="container">
+        <div class="main">Main</div>
+        <div class="aside">Aside</div>
+    </div>
+    <div class="sponsors">
+        <h1>Sponsors</h1>
+        <div class="item-sponsor-1"><img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/09/apple-logo-icon-iphone-sign-vector-21679773-e1567625129332.jpg?auto=format&q=60&fit=max&w=930" /></div>
+        <div class="item-sponsor-2"><img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/09/apple-logo-icon-iphone-sign-vector-21679773-e1567625129332.jpg?auto=format&q=60&fit=max&w=930" /></div>
+        <div class="item-sponsor-3"><img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/09/apple-logo-icon-iphone-sign-vector-21679773-e1567625129332.jpg?auto=format&q=60&fit=max&w=930" /></div>
+        <div class="item-sponsor-4"><img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/09/apple-logo-icon-iphone-sign-vector-21679773-e1567625129332.jpg?auto=format&q=60&fit=max&w=930" /></div>
+    </div>
+    <footer>
+        Footer &copy; <em>Basic website layout by ShivaliR</em>
+    </footer>
+</body>
+</html>

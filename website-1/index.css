@@ -39,6 +39,20 @@
   height: 20px;
   padding: 10px;
 }
+.grid-container{
+  background-color: blue;
+  border: 3px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  /* grid-template-rows: auto auto auto; */
+  padding: 10px;
+}
+.grid-item{
+  background-color: yellow;
+  border: 4px dashed red;
+}
 .bg{
   background-color: hotpink;
   height: 50vh;
@@ -71,4 +85,7 @@ footer{
   background-color: grey;
   display: block;
   width: 100vw;
+}
+nav{
+  padding: 0 72px 0 0;
 }
