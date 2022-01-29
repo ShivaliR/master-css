@@ -52,6 +52,7 @@
 .grid-item{
   background-color: yellow;
   border: 4px dashed red;
+  text-align: center;
 }
 .bg{
   background-color: hotpink;
